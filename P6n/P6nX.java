@@ -13,7 +13,7 @@ public class P6nX {
         lista.add(new Mulher("Valentina","13/11/1965",64.3,1.65));
         lista.add(new Homem("Davi","25/04/1990",100,1.75));
         lista.add(new Homem("Samuel","22/07/2003",20,1.80));
-        lista.add(new Mulher("Cecilia","03/11/2010",50,1.60));
+        lista.add(new Mulher("Julia Maria","17/10/2001",53,1.71));
         lista.add(new Homem("Lorenzo","05/10/1987",57,1.76));
         while(true){
             System.out.println("Escolha o modo:\n1.Imprimir\n2.Sair");
