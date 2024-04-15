@@ -1,40 +1,39 @@
-# Programa P1nX
+# Programa P1nX - Cálculo de Áreas Geométricas
 
 ## Descrição
 
-Este programa, denominado P1nX, é uma aplicação em Java que calcula áreas de figuras geométricas simples, como círculos, retângulos e triângulos, com base nos argumentos fornecidos pela linha de comando.
+O programa P1nX é uma aplicação em Java que permite ao usuário calcular a área de diferentes formas geométricas, como círculos, retângulos e triângulos. Ele recebe os parâmetros necessários via linha de comando e fornece os resultados correspondentes.
 
 ## Funcionalidades
 
-- Calcula a área de um círculo com raio fornecido.
-- Calcula a área de um retângulo com base e altura fornecidas.
-- Calcula a área de um triângulo com os comprimentos dos três lados fornecidos.
-- Verifica se os argumentos fornecidos formam um triângulo e, se sim, determina o tipo de triângulo (equilátero, isósceles ou escaleno).
+- **Cálculo da Área do Círculo:** O programa calcula a área de um círculo com base no raio fornecido como entrada.
+- **Cálculo da Área do Retângulo:** Quando dois lados do retângulo são fornecidos como entrada, o programa calcula sua área.
+- **Cálculo da Área do Triângulo:** Quando três lados do triângulo são fornecidos como entrada, o programa verifica se os lados formam um triângulo válido e, se sim, calcula sua área.
+
+## Conceitos Utilizados
+
+- **Métodos:** O programa utiliza métodos para encapsular e reutilizar lógica de cálculo. Cada tipo de forma geométrica (círculo, retângulo, triângulo) tem seus próprios métodos de cálculo de área.
+- **Condições:** O programa utiliza estruturas condicionais (`if`, `else if`, `else`) para lidar com diferentes cenários de entrada. Por exemplo, ele verifica se o número de argumentos fornecidos é suficiente ou excessivo, se os valores fornecidos são positivos e se os lados fornecidos formam um triângulo válido.
+- **Tratamento de Exceções:** O programa utiliza blocos `try-catch` para lidar com exceções, como entrada inválida ou valores negativos. Isso ajuda a garantir que o programa não quebre inesperadamente e forneça feedback adequado ao usuário.
+- **Sobrecarga de Métodos:** O programa utiliza a sobrecarga de métodos para calcular a área de diferentes formas geométricas com base nos parâmetros fornecidos. Por exemplo, há diferentes métodos `calcula()` para calcular a área do círculo, retângulo e triângulo, dependendo do número de argumentos fornecidos.
 
 ## Utilização
 
 Para utilizar este programa, siga as instruções abaixo:
 
 1. Certifique-se de ter o ambiente de desenvolvimento Java instalado em seu sistema.
-2. Compile o código-fonte P1nX.java.
+2. Compile o arquivo fonte: `P1nX.java`.
    ```bash
    javac P1nX.java
    ```
-3. Execute o programa, fornecendo os argumentos necessários.
-   - Para calcular a área de um círculo:
-     ```bash
-     java P1nX <raio>
-     ```
-   - Para calcular a área de um retângulo:
-     ```bash
-     java P1nX <base> <altura>
-     ```
-   - Para calcular a área de um triângulo:
-     ```bash
-     java P1nX <lado1> <lado2> <lado3>
-     ```
+3. Execute o programa `P1nX`, fornecendo os argumentos necessários.
+   ```bash
+   java P1nX <argumentos>
+   ```
+
+Os argumentos necessários variam de acordo com a forma geométrica que você deseja calcular. Consulte o código-fonte (`P1nX.java`) para obter detalhes sobre os argumentos necessários para cada cálculo.
 
 ## Observações
 
 - O programa foi desenvolvido como parte do aprendizado da disciplina de Linguagem de Programação 2 na Universidade do Estado do Rio de Janeiro (UERJ).
-- Este README fornece uma visão geral das funcionalidades do programa e instruções básicas para utilização. Consulte o código-fonte para obter mais detalhes sobre a implementação.
+- Este README fornece uma visão geral das funcionalidades do programa, detalhando os conceitos de programação utilizados e instruções básicas para utilização. Consulte o código-fonte (`P1nX.java`) para obter mais detalhes sobre a implementação.
