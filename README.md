@@ -1,6 +1,6 @@
 # Programas de Linguagem de Programação 2 - UERJ
 
-Bem-vindo à pasta de programas referentes à disciplina de Linguagem de Programação 2 da Universidade do Estado do Rio de Janeiro (UERJ).
+Bem-vindo à pasta de programas da disciplina de Linguagem de Programação 2 da Universidade do Estado do Rio de Janeiro (UERJ), da qual fui monitor posteriormente.
 
 Nesta pasta, você encontrará uma coleção de programas desenvolvidos como parte do curso de Linguagem de Programação 2, que aborda o estudo de Java e Programação Orientada a Objetos.
 
@@ -22,5 +22,5 @@ Nesta pasta, você encontrará uma coleção de programas desenvolvidos como par
 - **Nome:** Linguagem de Programação 2
 - **Universidade:** Universidade do Estado do Rio de Janeiro (UERJ)
 - **Professor:** Alexandre Sztajnberg 
-- **Semestre:** 2020.1
+- **Semestre:** 2020.2
 
