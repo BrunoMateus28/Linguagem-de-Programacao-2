@@ -24,6 +24,3 @@ Nesta pasta, você encontrará uma coleção de programas desenvolvidos como par
 - **Professor:** Alexandre Sztajnberg 
 - **Semestre:** 2020.1
 
----
-
-Sinta-se à vontade para ajustar o conteúdo conforme necessário para refletir com precisão os detalhes do curso e da instituição.
