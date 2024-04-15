@@ -1,5 +1,3 @@
----
-
 # Programa P1nX
 
 ## Descrição
@@ -40,5 +38,3 @@ Para utilizar este programa, siga as instruções abaixo:
 
 - O programa foi desenvolvido como parte do aprendizado da disciplina de Linguagem de Programação 2 na Universidade do Estado do Rio de Janeiro (UERJ).
 - Este README fornece uma visão geral das funcionalidades do programa e instruções básicas para utilização. Consulte o código-fonte para obter mais detalhes sobre a implementação.
-
----
